@@ -3,8 +3,8 @@ const BLOG = {
   author: 'Yang',
   email: ' ',
   link: 'coder-nova.com',
-  description: 'This gonna be an awesome website.',
-  lang: 'en-US',
+  description: '你不能只靠情绪活着，你还要了解宇宙的运行方式，了解自然的法则。',
+  lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
