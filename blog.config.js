@@ -5,6 +5,7 @@ const BLOG = {
   link: 'coder-nova.com',
   description: '你不能只靠情绪活着，你还要了解宇宙的运行方式，了解自然的法则。',
   lang: 'zh-CN',
+
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -53,7 +54,8 @@ const BLOG = {
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
-  }
+  },
+  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
 module.exports = BLOG
