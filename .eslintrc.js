@@ -4,7 +4,11 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: ['plugin:react/recommended', 'standard', 'prettier'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:@next/next/recommended',
+    'standard'
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -13,8 +17,13 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ['react'],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  },
   rules: {
-    "react/prop-types": "off"
+    'react/prop-types': 'off'
   },
   globals: {
     React: true
