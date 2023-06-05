@@ -1,11 +1,11 @@
 const BLOG = {
   title: 'Yang\'s blog',
   author: 'Yang',
-  email: ' ',
+  email: 'dixin.yang@keio.jp',
   link: 'coder-nova.com',
   description: '你不能只靠情绪活着，你还要了解宇宙的运行方式，了解自然的法则。',
   lang: 'zh-CN',
-
+  timezone: 'Asia/Tokyo', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
 
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
